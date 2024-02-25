@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdfopers"
+version = "0.1.0"
+description = "operations with pdf"
+authors = ["motiongorilla <nize.afonya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fpdf = "^1.7.2"
+pandas = "^2.2.1"
+openpyxl = "^3.1.2"
+pymupdf = "^1.23.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
